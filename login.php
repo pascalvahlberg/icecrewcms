@@ -42,7 +42,7 @@ echo '<meta http-equiv="refresh" content="0; url=index.php">';
 }
 }
 else {
-echo '<meta http-equiv="refresh" content="0; url=login.phpID=error">';
+echo '<meta http-equiv="refresh" content="0; url=login.php?ID=error">';
 }
 }
 if($getid == "logout") { 
