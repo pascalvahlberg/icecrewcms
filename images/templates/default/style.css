@@ -1,0 +1,174 @@
+a:link { color:black; text-decoration:underline; }
+a:visited { color:black; text-decoration:underline; }
+a:focus { color:black; text-decoration:underline; }
+a:hover { color:black; text-decoration:underline; }
+a:active { color:black; text-decoration:underline; }
+body {
+background-color: #FFFFFF;
+background-image: url(site/background.png);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+}
+ul#Navigation
+{
+  margin: 0; padding: 0;
+  float: left;
+}
+ul#Navigation, a:link#N, a:active#N, a:visited#N {
+  display: block;
+  width: 200px;
+  line-height: 35px;
+  text-decoration: none;
+  font-family: Tahoma, Arial, Verdana;
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+  background-image: url('buttons/normal.png') 
+}
+ul#Navigation li {
+  list-style: none;
+  padding: 0px;
+}
+ul#Navigation, a:hover#N {
+  list-style: none;
+  background-image: url('buttons/hover.png') 
+}
+div#Admin {
+  opacity: 0.75;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding: 0 1em;
+  border: 1px solid;
+  background-color: #3399FF;
+  min-width: 16em; /* Mindestbreite (der Ueberschrift) verhindert Anzeigefehler in modernen Browsern */
+}
+div#Admin h1 {
+  font-size: 1.5em;
+  margin: 0 0 1em;
+}
+div#Admin h2 {
+  font-size: 1.2em;
+  margin: 0 0 1em;
+}
+div#Admin p {
+  font-size:1em;
+  margin: 1em 0;
+}
+ul#Admin
+{
+margin: 0; padding: 0;
+float: right;
+}
+ul#Admin, a:link#N, a:active#N, a:visited#N {
+  display: block;
+  width: 200px;
+  line-height: 35px;
+  text-decoration: none;
+  font-family: Tahoma, Arial, Verdana;
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+  background-image: url('buttons/normal.png') 
+}
+ul#Admin li {
+  list-style: none;
+  padding: 0px;
+}
+ul#Admin, a:hover#N {
+  list-style: none;
+  background-image: url('buttons/hover.png') 
+}
+div#Index {
+  opacity: 0.75;
+  margin-left: 215px;
+  padding: 0 1em;
+  border: 1px solid;
+  background-color: #3399FF;
+  min-width: 16em; /* Mindestbreite (der Ueberschrift) verhindert Anzeigefehler in modernen Browsern */
+}
+div#Index h1 {
+  font-size: 1.5em;
+  margin: 0 0 1em;
+}
+div#Index h2 {
+  font-size: 1.2em;
+  margin: 0 0 1em;
+}
+div#Index p {
+  font-size:1em;
+  margin: 1em 0;
+}
+div#Forum {
+  opacity: 0.75;
+  margin-left: 215px;
+  padding: 0 1em;
+  border: 1px solid;
+  background-color: #3399FF;
+  min-width: 16em; /* Mindestbreite (der Ueberschrift) verhindert Anzeigefehler in modernen Browsern */
+}
+div#Forum h1 {
+  font-size: 1.5em;
+  margin: 0 0 1em;
+}
+div#Forum h2 {
+  font-size: 1.2em;
+  margin: 0 0 1em;
+}
+div#Forum p {
+  font-size:1em;
+  margin: 1em 0;
+}
+ul#Forum
+{
+margin: 0; padding: 0;
+float: right;
+}
+ul#Forum, a:link#N, a:active#N, a:visited#N {
+  display: block;
+  width: 200px;
+  line-height: 35px;
+  text-decoration: none;
+  font-family: Tahoma, Arial, Verdana;
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+  background-image: url('buttons/normal.png') 
+}
+ul#Forum li {
+  list-style: none;
+  padding: 0px;
+}
+ul#Forum, a:hover#N {
+  list-style: none;
+  background-image: url('buttons/hover.png') 
+}
+div#Forum li {
+  list-style: none;
+  margin: 0.4em; padding: 0.2em;
+  border: 1px solid gray;
+  background-color: #B2E5FF;
+}
+div#Forum a#F {
+  display:block;
+  padding: 0.2em;
+  text-decoration: none; font-weight: bold;
+  border: 1px solid black;
+  border-left-color: blue; border-top-color: blue;
+  color: black; background-color: #99CCFF;
+}
+div#Forum a:hover#F {
+  color: white; background-color: gray;
+  border-color: white;
+  border-left-color: black; border-top-color: black;
+  color: white; background-color: #0066FF;
+}
+ul#Copyright {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-decoration: none;
+  font-family: Tahoma, Arial, Verdana;
+  font-size: 12px;
+  color: #000000;
+}
